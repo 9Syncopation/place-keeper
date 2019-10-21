@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>User Preferances</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body >
+    <form onsubmit="onSubmit()" >
+        <table>
+            <tr>
+                <td> Choose your favorite color for site background: <input type="color" id="bckg-color" name="bckg-color"/></td>
+            </tr>
+            <tr>
+                <td> Choose your favorite color for site font: <input type="color" id="font-color" name="font-color"/></td>
+            </tr>
+        </table>
+        <div>
+            <label for="user-dob">Birth date:</label>
+            <input type="date" id="user-dob" name="user-dob" />
+            Birth time: <input type="time" name="user-birth-time" id="user-birth-time">
+        </div>
+        <input type="submit" onclick="onSubmit()" name="submitButton" />
+     
+    </form>
+    <a rel="stylesheet" href="index.html"> <=User Preferance update </a>
+
+    <section class="astrology">
+
+    </section>
+
+    <script src="js/util-service.js"></script>
+    <script src="js/service.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
